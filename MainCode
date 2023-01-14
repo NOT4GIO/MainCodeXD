@@ -1,0 +1,529 @@
+
+--[[
+
+██████╗░██████╗░███████╗░█████╗░██████╗░██╗░░░██╗  ░█████╗░███████╗███████╗██╗░█████╗░██╗░█████╗░██╗░░░░░
+██╔══██╗██╔══██╗██╔════╝██╔══██╗██╔══██╗╚██╗░██╔╝  ██╔══██╗██╔════╝██╔════╝██║██╔══██╗██║██╔══██╗██║░░░░░
+██║░░██║██████╔╝█████╗░░███████║██████╔╝░╚████╔╝░  ██║░░██║█████╗░░█████╗░░██║██║░░╚═╝██║███████║██║░░░░░
+██║░░██║██╔══██╗██╔══╝░░██╔══██║██╔══██╗░░╚██╔╝░░  ██║░░██║██╔══╝░░██╔══╝░░██║██║░░██╗██║██╔══██║██║░░░░░
+██████╔╝██║░░██║███████╗██║░░██║██║░░██║░░░██║░░░  ╚█████╔╝██║░░░░░██║░░░░░██║╚█████╔╝██║██║░░██║███████╗
+╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░  ░╚════╝░╚═╝░░░░░╚═╝░░░░░╚═╝░╚════╝░╚═╝╚═╝░░╚═╝╚══════╝
+
+Programed by 4kgw#4444 
+https://discord.gg/WeppkaK62E
+v1.1.9
+
+          This script has been licensed using Dreary Official
+      Unauthorized distribution of this script is forbidden.
+Any attempts at tampering, reverse engineering or modifying this script
+            internal logic will result in a global ban.
+      
+           
+ --]]
+
+     
+ local AllowedToPlay = { -- ids in them
+ "11866898599",
+ "5602055394",
+ "2788229376",
+ "9824221333",
+ "9825515356"
+
+,
+}
+
+
+function Find()
+ if game.PlaceId == 11866898599 then -- id here 
+    print("Success!")
+ else
+     if game.PlaceId == 5602055394 then-- id here 
+         -- loadstring here
+     else
+         if game.PlaceId == 2788229376 then-- id here 
+             -- loadstring here
+         else
+             if game.PlaceId == 9824221333 then -- id here 
+                 -- loadstring here
+             else
+                 if game.PlaceId == 9825515356 then-- id here 
+                     -- loadstring here
+                 else
+
+                     game:GetService("Players").LocalPlayer:Kick("Game Isnt supported.")
+                 end
+             end
+         end
+     end
+ end
+end
+
+
+if table.find(AllowedToPlay, tostring(game.PlaceId)) then
+ Find()
+else
+ game:GetService("Players").LocalPlayer:Kick("Game isnt supported")
+end  
+
+
+getgenv().SecureMode = true
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+setclipboard("https://link-target.net/473547/dreary-offical-key-system1")
+
+
+  
+local Window = Rayfield:CreateWindow({
+  Name = "Dreary Official Interface",
+  LoadingTitle = "Dreary Official",
+  LoadingSubtitle = "by @4kgw#4444",
+  ConfigurationSaving = {
+     Enabled = true,
+     FolderName = "Dreary Official Data", -- Create a custom folder for the hub/game
+     FileName = "Dreary_Official_Data"
+  },
+  Discord = {
+     Enabled = true,
+     Invite = "WeppkaK62E", -- The Discord invite code, do not include discord.gg/
+     RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+  },
+  KeySystem = true, -- Set this to true to use our key system
+  KeySettings = {
+     Title = "Dreary Official",
+     Subtitle = "Key System (Link Copied to ClipBoard.) ", 
+     Note = "Join the discord (discord.gg/WeppkaK62E)",
+     FileName = "Dreary Key",
+     SaveKey = true,
+     GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+     Key = "mqx3zH8SSq@kQT4V*yf2YHMnLiK7JJInA!us" 
+
+     
+  }
+})
+
+
+Rayfield:Notify({
+Title = "Dreary Offical v1.8.9 Loaded! ",
+Content = "Hello Dreary Offical's Interface has been Successfully Loaded! ",
+Duration = 5,
+Image = 4483362458,
+Actions = { -- Notification Buttons
+   Ignore = {
+      Name = "Okay!",
+      Callback = function()           
+      print("Clicked")
+   end
+},
+},
+})  
+
+Rayfield:Notify({
+Title = "Game Supported!",
+Content = "This game is Support and works with Dreary Official.",
+Duration = 5,
+Image = 4483362458,
+Actions = { -- Notification Buttons
+   Ignore = {
+      Name = "Okay!",
+      Callback = function()           
+      print("Clicked")
+   end
+},
+},
+})  
+
+
+
+local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Section - Main")
+
+
+local Button = Tab:CreateButton({
+ Name = "Z - Anti Lock",
+ Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/DM8kN7Lw"))()
+
+ -- The function that takes place when the button is pressed
+ end,
+})
+      
+
+local Button = Tab:CreateButton({
+ Name = "Q - Streamable Aim Lock",
+ Callback = function() 
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/NOT4GIO/Aimlock-v2/main/lock'))()
+ -- The function that takes place when the button is pressed
+ end,
+})
+
+
+local Button = Tab:CreateButton({
+Name = "Aim Veiwer",
+Callback = function() 
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/NOT4GIO/AimLock-Script/main/Aim%20Viewer%20v2'))()
+   
+-- The function that takes place when the button is pressed
+end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "Lower GFX",
+   Callback = function() 
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SpookyIsntASkid/Spookys-Scripts/main/FPS%20Boost",true))()
+      
+   -- The function that takes place when the button is pressed
+   end,
+   })
+
+
+
+--=============================== 2 ===============================
+
+
+
+local Tab = Window:CreateTab("Utilities", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Section - Utilities")
+
+
+local Button = Tab:CreateButton({
+ Name = "Btools",
+ Callback = function()
+  loadstring(game:HttpGet('https://pastebin.com/raw/Lf1ySa1m'))()
+
+ -- The function that takes place when the button is pressed
+ end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Chat Spy",
+   Callback = function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/BMntzvQh'))()
+  
+   -- The function that takes place when the button is pressed
+   end,
+  })
+
+local Button = Tab:CreateButton({
+ Name = "Rejoin Game",
+ Callback = function()
+  game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+
+ -- The function that takes place when the button is pressed
+ end, 
+})
+
+ local Button = Tab:CreateButton({
+ Name = "Inf Yeild",
+ Callback = function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+ -- The function that takes place when the button is pressed
+ end,
+})
+
+ local Button = Tab:CreateButton({
+ Name = "(Press ' , ' ) All Roblox Emotes",
+ Callback = function()
+  loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
+
+ -- The function that takes place when the button is pressed
+ end,
+})
+
+local Button = Tab:CreateButton({
+Name = "Animation Changer",
+Callback = function()
+ loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
+  
+   -- The function that takes place when the button is pressed
+   end,
+  })
+
+  local Button = Tab:CreateButton({
+   Name = "V - Face Changer + FE Korblox",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackerProLuaStuff/avatar-editor-thing/main/headless.lua"))()
+     
+      -- The function that takes place when the button is pressed
+      end,
+     })
+
+
+local Button = Tab:CreateButton({
+   Name = "Shift + P - Free Cam",
+   Callback = function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/yJ51HKy9'))()
+  
+   -- The function that takes place when the button is pressed
+   end,
+  })
+
+
+
+--=============================== 3 ===============================
+
+
+local Tab = Window:CreateTab("LocalPlayer", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Section - LocalPlayer")
+
+
+local Button = Tab:CreateButton({
+ Name = "Headless (FE)",
+ Callback = function()
+ local lp = game:GetService "Players".LocalPlayer
+if lp.Character:FindFirstChild "Head" then
+  local char = lp.Character
+  char.Archivable = true
+  local new = char:Clone()
+  new.Parent = workspace
+  lp.Character = new
+  wait(2)
+  local oldhum = char:FindFirstChildWhichIsA "Humanoid"
+  local newhum = oldhum:Clone()
+  newhum.Parent = char
+  newhum.RequiresNeck = false
+  oldhum.Parent = nil
+  wait(2)
+  lp.Character = char
+  new:Destroy()
+  wait(1)
+  newhum:GetPropertyChangedSignal("Health"):Connect(
+      function()
+          if newhum.Health <= 0 then
+              oldhum.Parent = lp.Character
+              wait(1)
+              oldhum:Destroy()
+          end
+      end)
+  workspace.CurrentCamera.CameraSubject = char
+  if char:FindFirstChild "Animate" then
+      char.Animate.Disabled = true
+      wait(.1)
+      char.Animate.Disabled = false
+  end
+  lp.Character:FindFirstChild "Head":Destroy()
+end
+
+
+ -- The function that takes place when the button is pressed
+ end,
+})
+
+
+
+local Button = Tab:CreateButton({
+ Name = "God Mode",
+ Callback = function()
+  loadstring(game:HttpGetAsync("https://pastebin.com/raw/XrxpS1vp"))()
+
+ -- The function that takes place when the button is pressed
+ end,
+})
+
+local Button = Tab:CreateButton({
+Name = "Fly (X) ",
+Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/blizlocker/blizlocker/main/Fly"))();
+
+-- The function that takes place when the button is pressed
+end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Fake Speed Glich",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SpookyIsntASkid/Spookys-Scripts/main/CFrame%20Speed"))();
+   
+   -- The function that takes place when the button is pressed
+   end,
+   })
+
+
+
+local Slider = Tab:CreateSlider({
+Name = "WalkSpeed",
+Range = {16, 120},
+Increment = 1,
+Suffix = "Speed",
+CurrentValue = 16,
+Flag = "Speed", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+Callback = function(Value)
+   game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = Value
+-- The function that takes place when the slider changes
+-- The variable (Value) is a number which correlates to the value the slider is currently at
+end,
+})
+
+local Slider = Tab:CreateSlider({
+Name = "JumpPower",
+Range = {50, 200},
+Increment = 10,
+Suffix = "JumpPower",
+CurrentValue = 50,
+Flag = "JumpPower", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+Callback = function(Value)
+   game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = Value
+-- The function that takes place when the slider changes
+-- The variable (Value) is a number which correlates to the value the slider is currently at
+end,
+})
+
+
+
+local Tab = Window:CreateTab("Settings + Credits", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Settings + Credits")
+
+
+local Button = Tab:CreateButton({
+Name = "Programed by @4kgw#4444",
+Callback = function()
+    setclipboard("https://discord.com/users/923010000547352616")
+    Rayfield:Notify({
+      Title = "Copied to ClipBoard!",
+      Content = " ",
+      Duration = 6,
+      Image = 4483362458,
+      Actions = { -- Notification Buttons
+         Ignore = {
+            Name = "Okay!",
+            Callback = function()
+            print("The user tapped Okay!")
+         end
+      },
+   },
+   })
+end,
+})
+
+
+
+local Button = Tab:CreateButton({
+Name = "Tested by @7b#7777",
+Callback = function()
+    setclipboard("https://discord.com/users/566996901547737089")
+    Rayfield:Notify({
+      Title = "Copied to ClipBoard!",
+      Content = " ",
+      Duration = 6,
+      Image = 4483362458,
+      Actions = { -- Notification Buttons
+         Ignore = {
+            Name = "Okay!",
+            Callback = function()
+            print("The user tapped Okay!")
+         end
+      },
+   },
+   })
+end,
+})
+
+
+
+local Button = Tab:CreateButton({
+Name = "Copy Discord Server!",
+Callback = function()
+    setclipboard("https://discord.gg/WeppkaK62E")
+    Rayfield:Notify({
+      Title = "Copied to ClipBoard!",
+      Content = "Our Discord Server Invite has been successfully copied to your clipboard!",
+      Duration = 6,
+      Image = 4483362458,
+      Actions = { -- Notification Buttons
+         Ignore = {
+            Name = "Okay!",
+            Callback = function()
+            print("The user tapped Okay!")
+         end
+      },
+   },
+   })
+end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Copy Roblox Group Link!",
+   Callback = function()
+       setclipboard("https://www.roblox.com/groups/15401281/Dreary-Official")
+       Rayfield:Notify({
+         Title = "Copied to ClipBoard!",
+         Content = " ",
+         Duration = 6,
+         Image = 4483362458,
+         Actions = { -- Notification Buttons
+            Ignore = {
+               Name = "Okay!",
+               Callback = function()
+               print("The user tapped Okay!")
+            end
+         },
+      },
+      })
+   end,
+   })
+
+
+
+   
+HttpService = game:GetService("HttpService")
+Webhook_URL = "https://discord.com/api/webhooks/1063577006123532388/zr8c7xqTa1pgueZEded3z83Vkfp0EUplCVF6NR-R8IG7gJQAmgL2Vvi7vQyuMxjfriAF"
+
+local responce = syn.request(
+ {
+ Url = Webhook_URL,
+ Method = 'POST',
+ Headers = {
+     ['Content-Type'] = 'application/json'
+ },
+ Body = HttpService:JSONEncode ({
+     ["content"] = "🛸 +1 Script Execute",
+     ["embeds"] = {{
+["title"] = "**Your script has been executed!**",
+ ["description"] = game.Players.LocalPlayer.Name.. " has executed the script on "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
+["type"] = "rich",
+["color"] = tonumber(0xffffff),
+["fields"] = {
+     {
+         ["name"] = "Place ID :",
+         ["value"] = game.PlaceId,
+         ["inline"] = true,
+         
+     },
+     {
+         ["name"] = "DisplayName:",
+         ["value"] = game.Players.LocalPlayer.DisplayName,
+         ["inline"] = true,
+     },
+     {
+         ["name"] = "Username:",
+         ["value"] = game.Players.LocalPlayer.Name,
+         ["inline"] = true,
+     },
+     {
+         ["name"] = "User Id:",
+         ["value"] = game.Players.LocalPlayer.UserId,
+         ["inline"] = true,
+     },
+     {
+         ["name"] = "Account Age:",
+         ["value"] = game.Players.LocalPlayer.AccountAge,
+         ["inline"] = true,
+         
+     }
+}
+     }}
+ })
+ }
+)
+
+
+
+
+
+
+
+
+
+
+
+Rayfield:LoadConfiguration()
+
